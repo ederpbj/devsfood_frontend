@@ -8,6 +8,8 @@ import Tela2Screen from "./pages/Tela2Screen";
 
 import { Container, Menu, PageBody } from './AppStyled';
 
+import MenuItem from './components/MenuItem';
+
 export default () => {
   const name = useSelector((state) => state.user.name);
   //test
@@ -15,7 +17,9 @@ export default () => {
     <BrowserRouter>
       <Container>
         <Menu>
-
+          <MenuItem icon="/assets/store" link="/" />
+          <MenuItem icon="/assets/order.png" link="/orders" />
+          <MenuItem icon="/assets/profile.png" link="/profile" />
         </Menu>
         <PageBody>
 

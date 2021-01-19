@@ -10,4 +10,6 @@
 
 [Estrutura Parte 1](https://alunos.b7web.com.br/curso/reactjs/estrutura-parte-1)
 
+[Estrutura Parte 2](https://alunos.b7web.com.br/curso/reactjs/estrutura-parte-2)
+
 
