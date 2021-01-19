@@ -13,12 +13,12 @@ export default () => {
   //test
   return (
     <BrowserRouter>
-      <h1>Oi, {name} </h1>
       <Container>
         <Menu>
 
         </Menu>
         <PageBody>
+
           <Switch>
             <Route exact path="/">
               <HomeScreen />
@@ -27,12 +27,13 @@ export default () => {
               <Tela2Screen />
             </Route>
           </Switch>
+
         </PageBody>
 
       </Container>
 
-      <h1>Oi, {name}</h1>
-
-    </BrowserRouter>
+    </BrowserRouter >
   );
 };
+
+//<h1>Oi, {' ' + name} </h1>
